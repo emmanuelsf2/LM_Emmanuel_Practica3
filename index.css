@@ -1,0 +1,68 @@
+*
+{
+    background-color: rgb(223, 221, 221);
+}
+
+.titulo
+{
+    text-align: center;
+    margin: 30px;
+}
+
+.encabezado-texto
+{
+    color: rgb(107, 107, 107);
+    text-align: center;
+    margin: 30px
+}
+
+img
+{
+    border : 3px solid orange;
+    border-radius: 4px;
+    width: 200px;
+    height: 200px;
+}
+
+.card-text2
+{
+    color: orange;
+}
+
+.card + .card2 + .card3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 2px solid black;
+}
+
+.card4 + .card5 + .card6
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 2px solid black;
+}
+
+footer
+{
+    text-align: center;
+}
+
+.nav
+{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn
+{
+    background-color: orange;
+    color: white;
+    border-radius: 15px;
+}
